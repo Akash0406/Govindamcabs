@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Get Startet Button
+# Get Startet Button / Whatsapp / Call
 --------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
@@ -308,12 +308,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background: url("../img/Hero-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
 }
-#hero:before {
+
+
+/* #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -321,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -333,7 +335,27 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0 0 0;
   font-size: 24px;
 }
-#hero .btn-get-started {
+#hero .btn-call {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #28a745;
+  border: 2px solid #28a745;
+}
+#hero .btn-call:hover {
+  background: transparent;
+  border-color: #6fed08;
+  background-color: #218838;
+}
+
+#hero .btn-whatsapp {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -344,12 +366,39 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #e03a3c;
-  border: 2px solid #e03a3c;
+  background: #7ce03a;
+  border: 2px solid #7ce03a;
 }
-#hero .btn-get-started:hover {
+#hero .btn-whatsapp:hover {
   background: transparent;
   border-color: #fff;
+  color: #7ce03a;
+}
+
+#hero .btn-enquire {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #3ac7e0;
+  border: 2px solid #3ac7e0;
+}
+#hero .btn-enquire:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #3ac7e0;
+}
+
+.poster-car {
+  background-color: red;
+  width: 100px;
+  height: 100px;
 }
 @media (max-width: 768px) {
   #hero {
@@ -564,8 +613,8 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 5px;
 }
 .counts .count-box i {
   position: absolute;
@@ -595,6 +644,9 @@ section {
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+}
+.count-container{
+  
 }
 
 /*--------------------------------------------------------------
@@ -949,6 +1001,20 @@ section {
   position: relative;
   overflow: hidden;
 }
+.car-banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.car-banner img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
 .pricing .box h3 {
   font-weight: 400;
   padding: 15px;
@@ -994,10 +1060,13 @@ section {
   padding: 15px;
   text-align: center;
 }
-.pricing .box .btn-buy {
+.pricing .featured {
+  background: #e03a3c;
+}
+.btn-whatsapp-ser{
   display: inline-block;
   padding: 10px 40px 12px 40px;
-  border-radius: 4px;
+  border-radius: 10px;
   color: #fff;
   transition: none;
   font-size: 14px;
@@ -1006,12 +1075,7 @@ section {
   font-weight: 600;
   transition: 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.3);
-}
-.pricing .box .btn-buy:hover {
-  border-color: #fff;
-}
-.pricing .featured {
-  background: #e03a3c;
+  background-color: #28a745;
 }
 
 /*--------------------------------------------------------------
@@ -1065,6 +1129,11 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.carousel-item img {
+  width: 100%;
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1231,6 +1300,14 @@ section {
 }
 .contact .php-email-form button[type=submit]:hover {
   background: #e35052;
+}
+.map-container {
+  padding: 10px;
+  border-radius: 5px;
+}
+.map-container iframe {
+  border-radius: 10px;
+  height: 300px;
 }
 @-webkit-keyframes animate-loading {
   0% {

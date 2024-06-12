@@ -10,11 +10,21 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/cab.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <script src="https://kit.fontawesome.com/8fa0a166ff.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Bootstraps CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -28,12 +38,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Presento - v3.7.0
-  * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -41,18 +45,19 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">Govindam Cabs<span>.</span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
+      <div>
+
+      </div>
+      <h1 class="logo me-auto"><a href="index.html" class="logo me-auto">
+          <img src="assets/img/cab.png" alt=""> Govindam Cabs<span>.</span></a>
+      </h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="assets\img\Hero-bg.jpg">Home</a></li>
+          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-           
-         
-          
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -62,14 +67,17 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" class="hero-view d-flex align-items-center">
 
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <div class="row">
         <div class="col-xl-6">
           <h1>Book a City Taxi to your destination in town</h1>
           <h2>Choose from a range of categories and prices</h2>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="tel:+919440962408" class="btn-call scrollto">call</a>
+          <a href="https://wa.me/+919440962408" target="_blank" class="btn-whatsapp scrollto"><i
+              class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          <a href="#contact" class="btn-enquire scrollto">Enquire</a>
         </div>
       </div>
     </div>
@@ -78,7 +86,86 @@
 
   <main id="main">
 
-   
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg ">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-taxi-front"></i>
+              <h4><a href="#">Rental Car</a></h4>
+              <p>All kinds of car Premium cars, VIP cars, budget cars, Non AC cars.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-houses"></i>
+              <h4><a href="#">Hotel Booking</a></h4>
+              <p>We offer single, double, both in AC / Non AC Luxury rooms.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-luggage"></i>
+              <h4><a href="#">Tour and Travels</a></h4>
+              <p>Discover Unforgettable Adventures: Personalized Tours and Travel Experiences Tailored Just for You.</p>
+            </div>
+          </div>
+
+        </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 count-container">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="230" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 count-container">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Services</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 count-container">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="846" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 count-container">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Our Drivers</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
@@ -89,7 +176,8 @@
             <div class="content">
               <h3>A car for every occasion</h3>
               <p>
-                Govindam Cabs offers city taxis, inter-city cabs, and local cabs at hourly/daily packages  and per kilometer basis
+                Govindam Cabs offers city taxis, inter-city cabs, and local cabs at hourly/daily packages and per
+                kilometer basis
               </p>
               <a href="#contact" class="about-btn"><span>contact us</span> <i class="bx bx-chevron-right"></i></a>
             </div>
@@ -125,100 +213,74 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="245" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Total Services</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Our Drivers</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    
-            
-              
-              
-              
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg ">
+    <!-- ======= Car Section ======= -->
+    <section id="pricing" class="pricing section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Bringing your destination closer to you. Enjoy a comfortably affordable ride to travel outstation with these benefits</p>
+          <h2>FEATURED VEHICLES</h2>
         </div>
 
         <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Travel to 1000+ routes</a></h4>
-              <p>Just add your destination and travel anytime. To know if we are available on your route.</p>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+              <div class="car-banner">
+                <img src="assets/img/Innova-removebg-preview.png" alt="">
+              </div>
+
+              <h3>Toyota Innova (6+1 Seater)</h3>
+              <p>Experience Hampi in comfort with Govindam Cab. Rent the versatile Toyota Innova Crysta—spacious,
+                stylish, and perfect for your journey. Explore with confidence and convenience.</p>
+              <div class="btn-wrap">
+                <a href="https://wa.me/+919440962408" target="_blank" class="btn-whatsapp-ser scrollto"><i
+                    class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Door-to-door pick and drop</a></h4>
-              <p>Govindam Cabs will arrive at your doorstep within minutes anytime you want to travel.</p>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="fade-up" data-aos-delay="200">
+              <div class="car-banner">
+                <img src="assets/img/dbdbd.png" alt="">
+              </div>
+              <h3>Maruti Dzire (4+1 Seater)</h3>
+              <p>Explore Hampi effortlessly with Govindam Cab. Opt for the Maruti Dzire, your reliable companion for a
+                smooth, affordable, elegant and blending urban adventure.</p>
+              <div class="btn-wrap">
+                <a href="https://wa.me/+919440962408" target="_blank" class="btn-whatsapp-ser scrollto"><i
+                    class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Affordable fares</a></h4>
-              <p>With fares starting at ₹ Rs 10/Km, Govindam cabs is a very affordable option for outstation/sight seen travel.</p>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+              <div class="car-banner">
+                <img src="assets/img/Toyota-Etios-Right-Front-Three-Quarter-49067_ol-removebg-preview.png" alt="">
+              </div>
+              <h3>Toyota Etios (4+1 Seater)</h3>
+                  <p>Explore Hampi with Govindam Cab in the reliable and efficient Toyota Etios. Enjoy a smooth and
+                    affordable ride, combining style and comfort for your travel needs.</p>
+                  <div class="btn-wrap">
+                    <a href="https://wa.me/+919440962408" target="_blank" class="btn-whatsapp-ser scrollto"><i
+                        class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                  </div>
             </div>
           </div>
-          
+
+        </div>
 
       </div>
-    </section><!-- End Services Section -->
-
-    
-                
+    </section><!-- End car Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Testimonials</h2>
-          <p>Govindam Cabs is a Car Rental service based company we started our service from Mantralayam and we are extending our service across other places.</p>
+          <p>Govindam Cabs is a Car Rental service based company we started our service from Mantralayam and we are
+            extending our service across other places.</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -228,12 +290,13 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <!--img to be-->
-                  
-                  <h3>Ananth Singeetham</h3>
-                  
+
+                  <h3>Sarah M.</h3>
+
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    The best cab services in Mantralayam. He arranged cabs to pick me up from Mantralayam road railway station & the next day arranges a small trip for the places to visit around Mantralayam. All the drivers were friendly, cabs were neat and clean. I highly recommend :)
+                    Our Hampi tour with Govindam Cab was absolutely wonderful! The car was comfortable, and the guide
+                    was knowledgeable and friendly. The hotel was clean and well-located. Highly recommend!
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -243,12 +306,14 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  
-                  <h3>Praveen Kumar</h3>
-                  
+                  <!--img to be-->
+
+                  <h3>John D.</h3>
+
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Good service provided by Govindam cabs. The owner is very approachable and help us in getting the taxi on time. Reliable and honest service provided by them. I strongly recommend to use this cab service at mantralayam.
+                    We had an amazing experience renting a car from Govindam Cab. The vehicle was in great condition,
+                    and the booking process was seamless. Exploring Hampi was a breeze!
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -258,12 +323,14 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <!--<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">-->
-                  <h3>Subramaniam Ramanathan</h3>
-                  
+                  <!--img to be-->
+
+                  <h3>Priya R.</h3>
+
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Excellent service. Professional behaviour. Rented a suv for 2 days. Driver was polite and journey was smooth. I recommend govindam cabs.
+                    Fantastic service from start to finish! The hotel was luxurious, and the car rental from Govindam
+                    Cab was hassle-free. The Hampi tour was the highlight of our trip. Thank you!
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -273,12 +340,14 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  
-                  <h3>Nagarajan raghavendran</h3>
-                  
+                  <!--img to be-->
+
+                  <h3>Alex W.</h3>
+
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Excellent service..Perfect timing as committed..Shishu the owner is so down to earth and courteous with customer service attitude.. Driver swamy was so courteous and patient.. Rarely you find such service oriented cabs in market place.. it was a memorable trip from mantralayam to navabrindavana.. Would strongly recommend Govindam cabs - if you are in mantralayam.. Om Shree Guru Raghavendraya Namaha 🙏
+                    I can't recommend Govindam Cab enough. Their car rental service was top-notch, and the Hampi tour
+                    was insightful and fun. The hotel exceeded our expectations.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -288,12 +357,99 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  
-                  <h3>Priya adhikarla</h3>
-                  
+                  <!--img to be-->
+
+                  <h3>Maria L.</h3>
+
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Opted for govindam cabfor our trip during manthralayam. Very affordable compared to others and we had very good experience with them.
+                    What a great trip! The car from Govindam Cab was perfect for our needs, the Hampi tour was
+                    well-organized, and the hotel was very comfortable. Exceptional service!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <!--img to be-->
+
+                  <h3>David H.</h3>
+
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Renting a car and booking a hotel for our Hampi tour through Govindam Cab was the best decision we
+                    made. Everything was smooth and enjoyable. Great job!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <!--img to be-->
+
+                  <h3>Aisha K.</h3>
+
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Excellent service and friendly staff! The car rental from Govindam Cab was easy, the hotel was
+                    fantastic, and the Hampi tour was unforgettable. We had a wonderful time.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <!--img to be-->
+
+                  <h3>Kevin P.</h3>
+
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    The entire experience with Govindam Cab was flawless. The car was clean and reliable, the hotel was
+                    cozy, and the Hampi tour provided great insights into the local history. Highly recommend!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <!--img to be-->
+
+                  <h3>Emily S.</h3>
+
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Amazing service! From the car rental to the hotel reservation and the Hampi tour, everything was
+                    perfect with Govindam Cab. We felt well taken care of throughout our trip.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <!--img to be-->
+
+                  <h3>Rajesh T.</h3>
+
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    A truly memorable trip thanks to Govindam Cab. The car was in excellent condition, the Hampi tour
+                    was fascinating, and the hotel stay was comfortable and pleasant.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -307,72 +463,36 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+          <h2>Photos</h2>
         </div>
 
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="fade-up" data-aos-delay="100">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
+        <div class="container mt-5">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" id="carousel-indicators">
+              <!-- Indicators will be injected here -->
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="box featured" data-aos="fade-up" data-aos-delay="200">
-              <h3>xyz</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
+            <div class="carousel-inner" id="carousel-inner">
+              <!-- Carousel items will be injected here -->
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="300">
-              <h3>xyz</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
 
         </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
+    </section><!-- End Team Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
@@ -385,55 +505,23 @@
         <ul class="faq-list accordion" data-aos="fade-up">
 
           <li>
-            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">What is Hampi?<i
+                class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq1" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                Hampi is a UNESCO World Heritage Site located in Karnataka, India. It was once the capital of the
+                Vijayanagara Empire and is renowned for its stunning architecture, historic temples, and vibrant
+                history.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Where is Hampi located? <i
+                class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq2" class="collapse" data-bs-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                Hampi is situated in the southern Indian state of Karnataka, near the city of Hospet.
               </p>
             </div>
           </li>
@@ -443,101 +531,12 @@
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Photos</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -549,7 +548,7 @@
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p>xxxxxxx</p>
+                  <p>Teacher colony MP Prakash Nagar Hospet 583201</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -563,7 +562,7 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
-                  <p>+xrdc9098</p>
+                  <p>+919440962408</p>
                 </div>
               </div>
             </div>
@@ -598,6 +597,13 @@
         </div>
 
       </div>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7695.596707388667!2d76.45818483928305!3d15.33318979097845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb77fd95d4be823%3A0x6e52e05076df36b8!2sHampi%2C%20Karnataka%20583239!5e0!3m2!1sen!2sin!4v1718110652627!5m2!1sen!2sin"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -612,11 +618,11 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Govindam Cabs<span>.</span></h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Teacher colony MP Prakash Nagar <br>
+              Hospet 583201<br>
+              Karnataka India <br><br>
+              <strong>Phone:</strong> +91 9440962408<br>
+              <strong>Email:</strong> info@govindamcab.com<br>
             </p>
           </div>
 
@@ -624,30 +630,16 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Tour</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cab Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Hotel Reservation</a></li>
             </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
           </div>
 
         </div>
@@ -661,8 +653,8 @@
           &copy; Copyright <strong><span>Govindam Cabs</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-         
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+          Designed by <a href="https://akash0406.netlify.app/">Akash Kumar Singh</a>
         </div>
       </div>
       <div class="social-links text-center text-md-end pt-3 pt-md-0">
@@ -675,7 +667,8 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -688,6 +681,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/unsplashApi.js"></script>
 
 </body>
 
